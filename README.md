@@ -5,6 +5,8 @@ bem como gerenciar a quantidade de usos de cada matérial.
 
 ## Documentação da API
 
+`em construção`
+
 Você pode encontrar a documentação de rotas e suas comunicações aqui: https://app.swaggerhub.com/apis-docs/RafaScripts/Gerenciador-de-Estoque/1.0.0#/
 
 ## Instalação
@@ -31,6 +33,8 @@ como também as configurações da sua database.
 Gere todas as tabelas do seu banco de dados usando os comandos `yarn knex migrate:latest` ou `npm knex migrate:latest`.
 
 ### 5º gere o login de administrador
+
+`em construção`
 
 ## Inicie o programa
 
