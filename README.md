@@ -34,7 +34,15 @@ Gere todas as tabelas do seu banco de dados usando os comandos `yarn knex migrat
 
 ### 5º gere o login de administrador
 
-`em construção`
+Para criar o primeiro usuario administrador execute os comandos `yarn knex seed:run 001_User` ou `npm knex seed:run 001_User`.
+
+com isso o primeiro usuario admin será gerado com os dados de login:
+
+Email: admin@admin.com
+Senha: 12345678
+
+*logue com ele para fazer todas as operações existentes ja que para todoas as 
+operações é nescessario o token gerado pelo JWT (tipo bearer).*
 
 ## Inicie o programa
 
