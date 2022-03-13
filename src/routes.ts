@@ -22,6 +22,7 @@ Routes.get('/vendors', VendorsController.index)
     .delete('/Vendors/:id', VendorsController.delete);
 
 Routes.get('/Products', ProductsController.index)
+    .get('/products/:id', ProductsController.search)
     .post('/products', ProductsController.create)
     .put('/products/:id', ProductsController.update)
     .delete('/products/:id', ProductsController.delete);

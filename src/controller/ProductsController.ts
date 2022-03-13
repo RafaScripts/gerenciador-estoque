@@ -7,6 +7,14 @@ class ProductsController {
         return res.json(response);
     }
 
+    async search(req: any, res: any){
+        const {id} = req.params
+
+        const response = await Knex('Products').where({id: id});
+
+        return res.json(response);
+    }
+
     async create(req: any, res: any){
         const { name, total, Useges, TotalAlert, Vendor_id } = req.body
 
